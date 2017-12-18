@@ -470,6 +470,6 @@ class Money implements \JsonSerializable
             $currency = new Currency($currency);
         }
 
-        return $currency
+        return $currency;
     }
 }
